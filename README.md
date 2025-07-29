@@ -57,7 +57,6 @@ public static void main(String[] args) {
 
 - Declara uma variável do tipo `String` chamada `opcao` que armazenará a escolha do usuário entre "par" ou "impar".
 
-text
     do {
         System.out.print("Digite a opção (par/impar): ");
         opcao = scanner.nextLine().trim().toLowerCase();
@@ -74,7 +73,6 @@ text
     System.out.println("Números " + opcao + " no intervalo de " + primeiroNumero + " até " + segundoNumero + " em ordem decrescente:");
 
 - Exibe uma mensagem informando o que vai mostrar a seguir, especificando o tipo de números (pares ou ímpares) e o intervalo definido.
-
 
     for (int i = segundoNumero; i >= primeiroNumero; i--) {
         if (opcao.equals("par") && i % 2 == 0) {
@@ -109,12 +107,19 @@ text
 ## Exemplo de execução
 
 Digite o primeiro número: 5
+
 Digite o segundo número (maior que o primeiro): 12
+
 Digite a opção (par/impar): par
+
 Números par no intervalo de 5 até 12 em ordem decrescente:
+
 12
+
 10
+
 8
+
 6
 ---
 
