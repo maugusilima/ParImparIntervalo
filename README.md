@@ -1,4 +1,4 @@
-# Documentação do programa ParImparIntervalo
+# Documentação do programa Par Impar Intervalo
 
 ## Descrição
 
